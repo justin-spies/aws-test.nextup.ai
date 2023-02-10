@@ -26,11 +26,6 @@ variable "nextup_enterprise_account_number" {
   type        = string
 }
 
-variable "nextup_operations_account_number" {
-  description = "AWS account number for the Nextup Operations account"
-  type        = string
-}
-
 variable "nextup_prod_account_number" {
   description = "AWS account number for the Nextup Prod account"
   type        = string
